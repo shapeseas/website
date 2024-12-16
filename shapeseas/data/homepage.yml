@@ -1,0 +1,76 @@
+## Looking for strings? Check the i18n folder.
+
+# showcase
+showcase:
+  enable: true
+  image:
+    x: "images/showcase/workspace.png"
+    _2x: "images/showcase/workspace@2x.png"
+    dark: "images/showcase/workspace_dark.png"
+    dark2x: "images/showcase/workspace_dark@2x.png"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.jpg"
+
+  socialLinks:
+    - icon: "square-github"
+      URL: "https://github.com/shapeseas"
+    
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/shapeseas"
+
+
+# about
+about:
+  enable: true
+  image:
+    x: "images/about/headshot-crisp.png"
+    _2x: "images/about/headshot-crisp@2x.png"
+    dark: "images/about/headshot-crisp-dark.png"
+    dark2x: "images/about/headshot-crisp-dark@2x.png"
+
+# education
+education:
+  enable: true
+  items:
+    - university: "University of Pennsylvania"
+      year: "2020-2024"
+      degree: "<i>School of Engineering and Applied Science</i> <br> Master of Computer and Information Technology"
+
+    - university: "University of Pennsylvania"
+      year: "2012-2015"
+      degree: <i>The Wharton School</i> <br> Bachelor of Science in Economics
+
+# experience
+## to hiden a button, set the icon to an empty string
+experience:
+  enable: true
+  button:
+    icon: ""
+  button2:
+    icon: ""
+  button3:
+    icon: ""
+
+projects:
+  enable: true
+
+# Client & Work
+client_and_work:
+  enable: false
+
+# testimonial
+testimonial:
+  enable: false
+
+# contact
+contact:
+  enable: true
+  form:
+    action: "https://formspree.io/f/mwpkjbkk"
+    method: "POST"
+  button:
+    icon: "icon-email"
+
+# newsletter
+newsletter:
+  enable: false
