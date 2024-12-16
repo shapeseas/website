@@ -1,0 +1,82 @@
+/* You can customize theme styles here */
+.header .navbar-brand span:first-child{
+    color: #5375b4;
+}
+.header .container{
+    padding-left: 10px;
+}
+
+html body ::selection{
+    background-color:#486480;color:#fff
+}
+
+.contact__info,
+.experience + .experience {
+    padding-top: 20px;
+}
+
+.experience__company{
+    color: #5d80a2;
+}
+
+.experience__location{
+    font-weight: normal;
+}
+
+.experience+.experience{
+    padding-top: 0;
+}
+
+body.home div.experience{
+    padding-top: 10px;
+}
+
+.experience a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.experience.selected a{
+    display: block;
+    background-color: #808080;
+}
+
+.experience:hover a,
+.experience:active a,
+.experience a:hover, 
+.experience a:active{
+    display: block;
+    background-color: #4f6ea8;
+}
+.experience.selected a > .experience__company,
+.experience:hover a > .experience__company,
+.experience:active a > .experience__company,
+.experience a:hover > .experience__company,
+.experience a:active > .experience__company{
+    color: white;
+}
+
+.all-experience-container{
+    margin-top: 20px;
+}
+
+picture[data-mode="light"] {
+    display: block;
+}
+picture[data-mode="dark"] {
+    display: none;
+}
+
+/* end adritian custom css */
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    picture[data-mode="light"] {
+        display: none;
+    }
+    picture[data-mode="dark"] {
+        display: block;
+    }
+}

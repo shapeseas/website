@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+.vscode
+
+# Hugo files
+*/public/
+*/resources/_gen/
+hugo_stats.json
+.hugo_build.lock
